@@ -2,6 +2,6 @@
 # returns the phrase
 def parrot(value = "Squawk!")
   n_value= value("Pretty bird!")
-  puts 
-  return "Pretty bird!"
+  puts "#{n_value}"
+  return n_value
 end
